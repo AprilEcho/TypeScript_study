@@ -1,0 +1,30 @@
+{
+  //  ts编辑器配置文件
+  //    ** 表示任意目录
+  //    *   表示任意文件
+  "include": ["./src/**/*"],
+  "exclude": ["./src/hello/**/*"],
+  //编译器选项
+  "compilerOptions": {
+    "target": "ES5", //ES版本
+    "module": "system", //模块化规范
+    //"lib": ["dom"]  //指定项目所要用到的库
+    "outDir": "./dist",  //编译后文件所在目录
+//    "outFile": "./dist/app.js",//合并代码到一个文件中
+    "allowJs": true,//是否对js文件进行编译，默认是false
+    "checkJs": true,//是否检查js代码是否符合语法规范，默认是false
+    "removeComments": true,//是否移除注释
+    "noEmit": false,//不生成编译后的文件
+    "noEmitOnError": true,//当有错误时不生成编译后的文件
+    "strict": true,//严格检查的总开关
+    "alwaysStrict": true,//是否使用严格模式
+    "noImplicitAny": true,//不允许隐式any类型
+    "noImplicitThis": true,//不允许不明确类型的this
+    "strictNullChecks": true,//严格检查空值
+
+
+
+
+
+  }
+}
